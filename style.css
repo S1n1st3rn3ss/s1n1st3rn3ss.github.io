@@ -108,7 +108,6 @@ div > img {
     }
     .menu-bar.responsive a {
         float: none;
-        position:fixed;
         display: block;
         text-align: left;
     }
