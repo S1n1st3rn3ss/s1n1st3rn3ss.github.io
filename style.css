@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FBF7FF;
+    overflow-x: hidden;
+}
+a, a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.menu-bar {
+    /*overflow: hidden;*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menu-bar .icon {
+    display: none;
+}
+.menu-bar a {
+    float: left;
+    color: #000000;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'Comfortaa Light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.menu-bar a:hover{
+    color: #B5A5F5;
+}
+.menu-bar a:active {
+    color: #7C41C7;
+}
+/* Create three equal columns that float next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    min-height: 100svh;
+
+}
+.side {
+    background-color: #E3D9FF;
+}
+.left {
+    flex: 0 0 17%;
+    text-align: left;
+    color: #000;
+}
+.right {
+    flex: 0 0 13%;
+    color: #E3D9FF;
+}
+.base {
+    background-color: #FBF7FF;
+    flex: 0 0 70%;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+    font-size: 24px;
+    margin: 0 20px 0 20px;
+}
+iframe {
+    width: 80%;
+    aspect-ratio: 16/9;
+}
+p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    margin: 10px 10px 10px 10px;
+    text-indent: 10px;
+}
+div > img {
+    max-width: 80%;
+    min-width: 60%;
+    width: auto;
+    aspect-ratio: auto;
+    margin: 10px 0 10px 0;
+}
+.base > ul > li {
+    text-align: justify;
+}
+@media screen and (max-width: 800px) {
+    .menu-bar a:not(:first-child) { display: none; }
+    .menu-bar a.icon {
+        float: right;
+        display: block;
+    }
+    .menu-bar.responsive {position: relative; width: 100%}
+    .menu-bar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .menu-bar.responsive a {
+        float: none;
+        position:fixed;
+        display: block;
+        text-align: left;
+    }
+    .base {
+        width: 100%;
+        flex: 0 0 100%;
+        margin: 0 10px 0 10px;
+    }
+    .side {
+        display: none;
+    }
+}
+.logo {
+    height: 100%;
+    display: inline-block;
+    background-color: #FBF7FF;
+}
+footer {
+    color: #F5F6F5;
+    padding: 3px;
+    text-align: center;
+}
+table, tbody, thead, td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #FBF7FF;
+    border-collapse: collapse;
+}
+ul {
+    margin: 0;
+    padding-left: 10px;
+    font-family: 'Consolas', sans-serif;
+}
