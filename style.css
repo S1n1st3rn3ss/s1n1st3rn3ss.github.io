@@ -48,7 +48,7 @@ a, a:link, a:visited {
 .flex-container {
     display: flex;
     align-items: stretch;
-    min-height: 100svh;
+    min-height: 100vh;
 
 }
 .side {
