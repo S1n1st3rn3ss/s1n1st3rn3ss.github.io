@@ -100,7 +100,7 @@ div > img {
         float: right;
         display: block;
     }
-    .menu-bar.responsive {position: relative; width: 100%}
+    .menu-bar.responsive {position: fixed; width: 100%}
     .menu-bar.responsive .icon {
         position: absolute;
         right: 0;
