@@ -22,7 +22,7 @@ a, a:link, a:visited {
     color: #000000;
     margin: 0 5px 0 5px;
     padding: 10px;
-    font-size: 1.5vw;
+    font-size: 24px;
     font-family: 'Comfortaa', cursive;
     font-style: normal;
     font-weight: 500;
@@ -68,8 +68,8 @@ a, a:link, a:visited {
     flex: 0 0 70%;
     color: black;
     text-align: justify;
-    line-height: 24px;
-    font-size: 24px;
+    line-height: 4vh;
+    font-size: 4vh;
     margin: 0 20px 0 20px;
 }
 iframe {
@@ -84,12 +84,12 @@ p {
     text-indent: 10px;
 }
 div > img {
+    display: block;
     max-width: 80%;
     min-width: 60%;
     width: auto;
     aspect-ratio: auto;
-    margin: auto;
-    margin-left: 10rem;
+    margin: 0 auto;
     text-align: center;
 }
 .base > ul > li {
