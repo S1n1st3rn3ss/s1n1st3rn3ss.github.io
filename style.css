@@ -22,7 +22,7 @@ a, a:link, a:visited {
     color: #000000;
     margin: 0 5px 0 5px;
     padding: 10px;
-    font-size: 24px;
+    font-size: 1.5vw;
     font-family: 'Comfortaa', cursive;
     font-style: normal;
     font-weight: 500;
@@ -68,8 +68,6 @@ a, a:link, a:visited {
     flex: 0 0 70%;
     color: black;
     text-align: justify;
-    align-items: center;
-    justify-content: center;
     line-height: 24px;
     font-size: 24px;
     margin: 0 20px 0 20px;
@@ -77,6 +75,7 @@ a, a:link, a:visited {
 iframe {
     width: 80%;
     aspect-ratio: 16/9;
+    margin-left: 10rem;
 }
 p {
     font-family: 'Inter', sans-serif;
@@ -89,7 +88,9 @@ div > img {
     min-width: 60%;
     width: auto;
     aspect-ratio: auto;
-    margin: 10px 0 10px 0;
+    margin: auto;
+    margin-left: 10rem;
+    text-align: center;
 }
 .base > ul > li {
     text-align: justify;
